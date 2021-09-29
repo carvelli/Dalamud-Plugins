@@ -33,9 +33,8 @@ def extract_manifests():
 def add_extra_fields(manifests):
     DEFAULTS = {
         "IsHide": False,
-        "IsTestingExclusive": True,
-        "ApplicableVersion": "any",
-        "DownloadCount": 0
+        "IsTestingExclusive": False,
+        "ApplicableVersion": "any"
     }
 
     for manifest in manifests:
