@@ -1,5 +1,6 @@
 import json
 import os
+from shutil import copy2
 from os.path import getmtime
 from zipfile import ZipFile
 
@@ -12,13 +13,7 @@ def copy_plugins():
                 continue
                
             os.makedirs(name=f"dist/{plugin_name}", exist_ok=True)
-
-            with ZipFile(f"{dirpath}/latest.zip", "r") as zin:
-                with ZipFile(f"dist/{plugin_name}/latest.zip", "w") as zout:
-                    for item in zin.infolist():
-                        buffer = zin.read(item.filename)
-                        if (item.filename[-10:] != ".deps.json"):
-                            zout.writestr(item, buffer)
+            copy2(src=f"{dirpath}/latest.zip", dst=f"dist/{plugin_name}/latest.zip")
 
 def extract_manifests():
     manifests = []
