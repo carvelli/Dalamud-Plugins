@@ -45,7 +45,7 @@ def add_extra_fields(manifests):
 
 def update_last_updated(manifests):
     for manifest in manifests:
-        latest = f"../{manifest['InternalName']}/dist/{manifest['InternalName']}/latest.zip"
+        latest = f"dist/{manifest['InternalName']}/latest.zip"
         modified = int(getmtime(latest))
 
         if "LastUpdated" not in manifest or modified != int(manifest["LastUpdated"]):
