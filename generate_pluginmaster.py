@@ -4,7 +4,7 @@ from shutil import copy2
 from os.path import getmtime
 from zipfile import ZipFile
 
-plugin_names = ["SliceIsRight"]
+plugin_names = ["SliceIsRight", "FishNotify"]
 
 def copy_plugins():
     for plugin_name in plugin_names:

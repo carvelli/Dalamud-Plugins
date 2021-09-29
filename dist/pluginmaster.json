@@ -20,5 +20,26 @@
         "IsHide": false,
         "IsTestingExclusive": false,
         "LastUpdated": "1632922052"
+    },
+    {
+        "Author": "Liza Carvelli",
+        "Name": "Fish Notify",
+        "InternalName": "FishNotify",
+        "AssemblyVersion": "1.0.0.0",
+        "Description": "Plays a sound when a fish is caught, depending on tug-strength",
+        "ApplicableVersion": "any",
+        "RepoUrl": "https://github.com/carvelli/Fish-Notify",
+        "Tags": [
+            "fishing"
+        ],
+        "DalamudApiLevel": 4,
+        "LoadPriority": 0,
+        "Punchline": "Plays a sound when a fish is caught",
+        "DownloadLinkInstall": "https://raw.githubusercontent.com/carvelli/Dalamud-Plugins/master/dist/FishNotify/latest.zip",
+        "DownloadLinkTesting": "https://raw.githubusercontent.com/carvelli/Dalamud-Plugins/master/dist/FishNotify/latest.zip",
+        "DownloadLinkUpdate": "https://raw.githubusercontent.com/carvelli/Dalamud-Plugins/master/dist/FishNotify/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "LastUpdated": "1632926457"
     }
 ]
