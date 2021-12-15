@@ -3,7 +3,7 @@
         "Author": "Liza Carvelli",
         "Name": "Slice is Right",
         "InternalName": "SliceIsRight",
-        "AssemblyVersion": "2.0.0.0",
+        "AssemblyVersion": "3",
         "Description": "Shows where Bamboo falls.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/carvelli/Slice-Is-Right",
@@ -19,7 +19,7 @@
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/carvelli/Dalamud-Plugins/master/dist/SliceIsRight/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "LastUpdated": "1639522765"
+        "LastUpdated": "1639608550"
     },
     {
         "Author": "Liza Carvelli",
