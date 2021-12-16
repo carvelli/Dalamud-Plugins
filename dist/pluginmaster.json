@@ -3,7 +3,7 @@
         "Author": "Liza Carvelli",
         "Name": "Slice is Right",
         "InternalName": "SliceIsRight",
-        "AssemblyVersion": "3",
+        "AssemblyVersion": "3.0.0.0",
         "Description": "Shows where Bamboo falls.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/carvelli/Slice-Is-Right",
