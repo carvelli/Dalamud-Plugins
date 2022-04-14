@@ -3,7 +3,7 @@
         "Author": "Liza Carvelli",
         "Name": "Slice is Right",
         "InternalName": "SliceIsRight",
-        "AssemblyVersion": "3.0",
+        "AssemblyVersion": "4.0",
         "Description": "Shows where Bamboo falls.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/carvelli/Slice-Is-Right",
@@ -11,7 +11,7 @@
             "gold saucer",
             "yojimbo"
         ],
-        "DalamudApiLevel": 5,
+        "DalamudApiLevel": 6,
         "LoadPriority": 0,
         "Punchline": "Shows where Bamboo falls.",
         "DownloadLinkInstall": "https://raw.githubusercontent.com/carvelli/Dalamud-Plugins/master/dist/SliceIsRight/latest.zip",
@@ -19,7 +19,7 @@
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/carvelli/Dalamud-Plugins/master/dist/SliceIsRight/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "LastUpdated": "1639648053"
+        "LastUpdated": "1649962087"
     },
     {
         "Author": "Liza Carvelli",
